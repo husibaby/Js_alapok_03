@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gondoltam egy számra játék</title>
+    <script src="feladat01.js"></script>
+   
+</head>
+<body>
+    <p>Gondoltam egy számra játék. <br> Írj be egy számot 1 és 100 között. <br> Kattints a játék gombra és nézd meg, hogy a megadott tipped helyes volt-e. Jó szórakozást! </p>
+    <input type="number" id="felhasznalo" placeholder="Add meg a tipped!" min="1"  max="100">
+    <button onclick="ellenorzes()">Játék</button>
+    <button onclick="szamgeneralas()">Új szám</button>
+    <p id="viszejelzes"></p>
+</body>
+</html>
